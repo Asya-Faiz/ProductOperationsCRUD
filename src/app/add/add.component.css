@@ -1,0 +1,15 @@
+mat-expansion-panel {
+    margin-top:2em;
+    width: 90vw;
+}
+
+.expansion-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.expansion-content button{
+    width:10vw;
+    margin-right: 1px;
+    align-self: flex-end;
+}

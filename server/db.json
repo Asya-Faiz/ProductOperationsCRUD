@@ -1,0 +1,40 @@
+{
+  "Product": [
+    {
+      "name": "PENCIL",
+      "description": "apsara extra black",
+      "price": 7,
+      "id": 1
+    },
+    {
+      "name": "BISCUIT",
+      "description": "good day cashew",
+      "price": 20,
+      "id": 3
+    },
+    {
+      "name": "SOAP",
+      "description": "mdn",
+      "price": 12,
+      "id": 4
+    },
+    {
+      "name": "WASING POWDER",
+      "description": "tide",
+      "price": 67,
+      "id": 5
+    },
+    {
+      "name": "AA",
+      "description": "as",
+      "price": 12,
+      "id": 6
+    },
+    {
+      "name": "A",
+      "description": "a",
+      "price": 12,
+      "id": 7
+    }
+  ]
+}

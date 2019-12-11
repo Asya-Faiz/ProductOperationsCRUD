@@ -1,0 +1,12 @@
+<button mat-button (click)="viewProduct()">View Products</button>
+
+<mat-card *ngFor="let each of products">
+    <mat-card-title>{{each.name}}</mat-card-title>
+    <mat-card-content>
+        <p>Description: {{each.description}}</p>
+        <p>Price: {{each.price}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+        <button mat-button (click)=deleteProduct(each.id)>Delete</button>
+    </mat-card-actions>
+</mat-card>
